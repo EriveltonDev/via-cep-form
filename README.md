@@ -18,9 +18,6 @@ In addition, the project utilizes React Hook Form, a powerful library for form m
 
 By combining the Clean Architecture principles with the usage of React Hook Form, this project emphasizes code organization, reusability, and testability. The clean and modular structure enables developers to easily extend and maintain the application.
 
-Whether you are new to Clean Architecture or React Hook Form, this project serves as a valuable resource for learning and applying these concepts to a real-world scenario.
-
-
 ## Getting Started
 
 First, run the development server:
