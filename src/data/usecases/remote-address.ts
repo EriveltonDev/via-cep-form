@@ -1,9 +1,9 @@
 import { Address } from "@/domain/usecases/address";
-import { AxiosHttpClient } from "@/infra/axios-http-client";
+import { IHttpClient } from "../protocols/http";
 
 export class RemoteAddress implements Address {
   constructor (
-    private readonly httpClient: AxiosHttpClient
+    private readonly httpClient: IHttpClient
   ) {}
   
   async getByZipCode ({zipCode}: Address.Params): Promise<Address.Model> {

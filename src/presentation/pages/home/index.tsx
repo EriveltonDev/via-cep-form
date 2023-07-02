@@ -12,9 +12,10 @@ export function Home({remoteAddress}: HomeProps) {
 
   async function getZipCode() {
     try {
-      await remoteAddress.getByZipCode({zipCode: cep})
+      const response = await remoteAddress.getByZipCode({zipCode: cep})
+      alert(JSON.stringify(response))
     } catch (error) {
-      console.log(error)
+      alert(error)
     }
   }
 
