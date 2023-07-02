@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="pt-BR" className='dark'>
-			<body className={`${inter.className} dark:bg-slate-800`}>
+			<body className={`${inter.className} dark:bg-zinc-800`}>
 				<ThemeSwitcher/>
 				{children}
 			</body>

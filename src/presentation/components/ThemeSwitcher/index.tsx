@@ -15,13 +15,23 @@ export function ThemeSwitcher() {
 	}, [isDark])
 
 	return (
-		<div>
+		<div className='fixed right-4 top-4'>
 			{isDark && (
-				<FaSun onClick={() => setIsDark(false)} />
+				<FaSun
+					className='text-white hover:text-zinc-200'
+					size={25}
+					cursor={'pointer'}
+					onClick={() => setIsDark(false)}
+				/>
 			)}
 
 			{!isDark && (
-				<FaMoon onClick={() => setIsDark(true)}/>
+				<FaMoon
+					className='text-zinc-800 hover:text-zinc-600'
+					size={25}
+					cursor={'pointer'}
+					onClick={() => setIsDark(true)}
+				/>
 			)}
 
 		</div>
