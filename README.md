@@ -22,9 +22,6 @@ The star of this project is the Zod library, which provides an elegant and power
 
 The composition approach used in the project allows for the creation of modular and reusable components, making code maintenance and expansion easier and more scalable. By breaking components down into smaller parts, we were able to create flexible and adaptable interfaces that can adjust to the specific needs of each form.
 
-Happy coding!
-
-
 ## Getting Started
 
 First, run the development server:
