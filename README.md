@@ -1,22 +1,29 @@
-# Clean Architecture and React Hook Form - Simple Address Search Project
+# Welcome to my repository!
 
-This GitHub project is a simple application that utilizes the Via CEP API to search for addresses. It showcases the quality of the codebase by implementing the Clean Architecture principles and leveraging the React Hook Form library.
+Here you'll find a simple project where I leveraged the powerful combination of clean architecture, Next.js 13, React Hook Form, and a library called Zod for form validation. Additionally, I employed the concept of composition to create highly reusable and flexible components.
 
-## Key Features
+## Clean Architecture
 
-- **Clean Architecture**: The codebase is structured into layers, separating concerns and improving maintainability.
-- **React Hook Form**: Efficient form management with built-in validation and error handling capabilities.
-- **Via CEP API Integration**: Utilizes the Via CEP API to retrieve address information.
-- **Modularity and Reusability**: Encourages the creation of reusable components and modules.
-- **Testability**: The architecture and code structure facilitate the creation of unit tests.
+Clean architecture allows for a clear separation of responsibilities, making the code more organized and easily maintainable. 
 
-## Description
+## Next.js 13
 
-The Clean Architecture approach promotes separation of concerns and maintainability by dividing the codebase into layers based on dependencies. This project demonstrates a clear separation between the presentation layer (React components) and the business logic layer.
+Next.js 13, one of the latest versions of the framework, offers an enhanced development experience and performance optimizations for your web applications.
 
-In addition, the project utilizes React Hook Form, a powerful library for form management in React applications. React Hook Form simplifies form handling by leveraging React hooks, allowing for cleaner and more efficient code.
+## React Hook Form
 
-By combining the Clean Architecture principles with the usage of React Hook Form, this project emphasizes code organization, reusability, and testability. The clean and modular structure enables developers to easily extend and maintain the application.
+With React Hook Form, I was able to create forms in a simple and efficient manner without the need for additional libraries.
+
+## Zod Library
+
+The star of this project is the Zod library, which provides an elegant and powerful way to validate the data entered in our forms. With a clear and intuitive syntax, Zod simplifies validation, allowing us to focus on business logic and user experience.
+
+## Composition Approach
+
+The composition approach used in the project allows for the creation of modular and reusable components, making code maintenance and expansion easier and more scalable. By breaking components down into smaller parts, we were able to create flexible and adaptable interfaces that can adjust to the specific needs of each form.
+
+Happy coding!
+
 
 ## Getting Started
 
