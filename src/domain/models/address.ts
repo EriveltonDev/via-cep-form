@@ -9,4 +9,5 @@ export interface AddressModel {
   gia: string
   ddd: string
   siafi: string
+  erro?: true
 }
